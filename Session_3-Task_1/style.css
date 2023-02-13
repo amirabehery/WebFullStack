@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(27, 27, 239);
+}
+
+header, footer {
+    background-color: white;
+    margin: 0 25px;
+    height: 5vh;
+}
+
+.midMain {
+    margin: 0 25px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+}
+
+.main {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+span {
+    color: orange;
+}
+
+.team {
+    display: inline-block;
+    width: 22%;
+    height: 30vh;
+    margin: 5% 1%;
+}
+
+.images {
+    align-items: center;
+    width: 100%;
+    
+}
+
+.container {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+

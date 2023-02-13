@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(27, 27, 239);
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    margin: 0 25px;
+    height: 20vh;
+    border: 1px solid black;
+    height: 35vh;
+    position: relative;
+}
+
+h1 {
+    margin: 50px 0; 
+    font-size: 55px;
+}
+
+span, h2 {
+    color: orange;
+}
+
+#upperDetails {
+    font-size: 20px;
+    margin: 20px;
+    width: 70%;
+    margin: 0 200px;
+}
+
+.main {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin: 0 25px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.images {
+    position: relative;
+}
+
+.team {
+    width: 30%;
+    height: 60vh;
+    display: inline-block;
+}
+
+#img1{
+    position: absolute;
+    left: 0;
+}
+
+h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+#midCenter{
+    /* border: 1px solid black; */
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    margin: 50px 0;
+    text-align: center;
+    height: 100%;
+}
+
+.details {
+    color: aliceblue;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+}
+
+button{
+    position: absolute;
+    border: 1px solid black;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    left: 35%;
+    top: 200px;
+}
+#img2{
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    background-color: white;
+    margin: 0 25px;
+    height: 30px;
+}
+
