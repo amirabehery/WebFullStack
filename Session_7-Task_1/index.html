@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+<form action="" >
+    <h1>Welcome</h1>
+    <br>
+
+        <label for="username">User Name</label>
+        <input id="username" type="text" minlength="5" maxlength="20" placeholder="Enter your Name" required ><br>
+
+        <label for="email" class="labelGroup">Email</label>
+        <input id="email" type="email" pattern=".+@[A-Za-z]+\.[A-Za-z]{3}" placeholder="Enter Email" required><br>
+
+        <label for="phone" class="labelGroup">Phone Number</label>
+        <input id="phone" type="number" pattern="[0-9]{15}" placeholder="Enter your phone number" required><br>
+
+        <label for="comment" class="labelGroup">Comment</label> 
+        <textarea id="comment" rows="3" cols="35" type="text" maxlength="200" placeholder="Enter your comment" required></textarea><br>
+
+    <br>
+    <button type="submit" id="btnSubmit">Sign up</button>
+</form>
+</body>
+<script src="script.js"></script>
+</html>
